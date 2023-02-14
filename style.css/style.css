@@ -1,0 +1,27 @@
+body{ 
+  margin: auto;
+}
+header{
+  width: 100%;
+  font-family: arial;
+}
+
+.logo{
+  margin-left: 20px;
+  display: inline-block;
+}
+
+.titolo{
+  display: inline-block;
+}
+
+.container{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.finto-box{
+  background-color: blue;
+  height: 20px;
+  width: 70px;
+}
