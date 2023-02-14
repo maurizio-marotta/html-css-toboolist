@@ -1,9 +1,11 @@
 body{ 
   margin: auto;
+  background-color: blue;
 }
 header{
   width: 100%;
   font-family: arial;
+  background-color: aliceblue;
 }
 
 .logo{
@@ -16,12 +18,44 @@ header{
 }
 
 .container{
+  padding: 4%;
   width: 50%;
   margin: 0 auto;
 }
 
+.contenitore{
+  background-color: black;
+}
+
+.contenitore-2{
+  background-color: rgb(255, 0, 0);
+}
+
 .finto-box{
-  background-color: blue;
+  display: inline-block;
+  vertical-align: auto;
+  color: white;
+  background-color: rgb(106, 113, 179);;
   height: 20px;
   width: 70px;
+  border-radius: 8%;
+  text-align: center;
+  border: 1px solid rgb(106, 113, 179);;
+}
+
+.finto-box-2{
+  display: inline-block;
+  vertical-align: auto;
+  color: rgb(106, 113, 179);
+  background-color: rgb(255, 255, 255);
+  height: 20px;
+  width: 80px;
+  border-radius: 8%;
+  text-align: center;
+  border: 1px solid rgb(106, 113, 17);
+}
+
+.cerchio{
+  background-color: crimson;
+  border-radius: 50%;
 }
